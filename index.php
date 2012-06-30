@@ -30,7 +30,7 @@
 	
 	</section><!-- #content -->
 
-<?php get_sidebar(); ?>
+<?php // get_sidebar(); ?>
 
 </div><!-- #main -->
 
