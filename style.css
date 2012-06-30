@@ -153,7 +153,6 @@ body {
 
 #wrap {
 	position:relative;
-	width:1400px;
 	background:#FFF;
 	border: 1px solid red;
 	margin:0 auto;
@@ -277,14 +276,14 @@ body {
 -----------------------------------------------------------*/
 #main {
 	float:left;
-	width:940px;
 	padding:10px;
+	border: 1px solid purple;
 }
 
 #content {
 	float: left;
-	width:600px;
 	padding: 20px;
+	border: 1px solid blue;
 }
 
 /* Main body blog content formatting
@@ -326,47 +325,16 @@ body {
 	text-align:right;
 }
 
-/* Sidebar Area 
--------------------------------------------*/
-#sidebar {
-	float:right;
-	width:240px;
-	padding: 0px 20px;
-	background:#eee;
+/* Index Page article post
+------------------------------------------------------------*/
+
+#content .category-flim {
+	border: 1px solid red;
+	width: 600px;
+	float: left;
+	
 }
 
-.widget {
-	padding: 20px 0;
-}
-
-#sidebar h4 {
-	margin: 0 0 2px; 
-	padding: 0 0 2px;
-	border-bottom: 1px solid #d4d4d4;
-	text-transform: uppercase;
-	font-size:14px;
-}
-
-#sidebar ul {
-	list-style: none;
-}
-
-#sidebar ul li {
-	padding:5px 10px;
-}
-
-#sidebar a {
-	color: #4d4d4d;
-	text-decoration: none;
-}
-
-#sidebar a:hover {
-	color: #000;
-}
-
-.widget_search label {
-	display:none;
-}
 
 /* Footer area
 ------------------------------------------------------------*/
