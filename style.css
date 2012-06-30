@@ -145,7 +145,6 @@ blockquote {
 /* Main Layout
 -----------------------------------------------*/
 body {
-	background:#eee;
 	color:#333;
 	font:14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	margin:0;
@@ -154,8 +153,9 @@ body {
 
 #wrap {
 	position:relative;
-	width:960px;
+	width:1400px;
 	background:#FFF;
+	border: 1px solid red;
 	margin:0 auto;
 	padding:0;
 }
