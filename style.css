@@ -284,6 +284,7 @@ body {
 	float: left;
 	padding: 20px;
 	border: 1px solid blue;
+	height: 800px;
 }
 
 /* Main body blog content formatting
@@ -332,7 +333,8 @@ body {
 	border: 1px solid red;
 	width: 600px;
 	float: left;
-	
+	height: 200px;
+	white-space: nowrap;
 }
 
 
