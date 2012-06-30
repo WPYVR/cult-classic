@@ -19,8 +19,11 @@
 	<header id="branding">
 		<div id="logo"><a href="<?php echo home_url() ?>/"><?php bloginfo( 'name' ); ?></a></div>
 		<div id="tagline"><?php bloginfo( 'description' ); ?></div>
+	
+		<nav id="top_nav">
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+		</nav>
+			
 	</header>
 	
-	<nav id="top_nav">
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-	</nav>
+	
