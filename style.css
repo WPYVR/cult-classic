@@ -304,6 +304,7 @@ body {
 	padding:6px;
 	color: #999;
 	border-top:dotted 1px #d4d4d4;
+	display: none; /* let's hide the comments & meta data */
 }
 
 .entrymeta p {
@@ -335,13 +336,18 @@ body {
 }
 
 
-#content .category-flim {
+#content .category-film {
 	border: 1px solid red;
 	width: 400px;
 	float: left;
 	height: 200px;		
 	}
 
+#content article {
+	width: 600px;
+	height: 800px;
+	float: left;
+}
 
 /* Footer area
 ------------------------------------------------------------*/
