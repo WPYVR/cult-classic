@@ -235,16 +235,21 @@ header #logo a {
 #top_nav ul li.current_page_ancestor a,
 #top_nav ul li.current-menu-ancestor a, 
 #top_nav ul li.current-menu-item a,
-#top_nav ul li.current-menu-parent a {
+#top_nav ul li.current-menu-parent a,
+#top_nav ul li:hover > a,
+#top_nav ul li:focus > a {
 	color:#fff;
 	background:#000;	
 }
+
+
 
 /* Drop down menu */
 #top_nav ul ul {
 	display:none;
 	position:absolute;
-	top:40px; 
+	top:40px;
+	padding: 5px 0 0 0; 
 	left:0;
 	float:left;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
@@ -256,13 +261,48 @@ header #logo a {
 
 #top_nav ul ul li {
 	min-width: 180px;
-	border-bottom:1px solid #d4d4d4;	
+	
+}
+
+#top_nav ul ul li a:hover,
+#top_nav ul ul li:hover > a,
+#top_nav ul ul li:focus > a {
+	color: #fff;
+	background-color:#808080;
+}
+
+#top_nav ul ul li:first-child a {
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+
+#top_nav ul ul li:last-child a {
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+
+#top_nav ul ul li:only-child a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 /* Third Level drop down menu */
 #top_nav ul ul ul {
+	display:none!important;
 	left:100%;
 	top:0;
+	padding-left: 10px;
+}
+
+#top_nav ul ul ul li:first-child a,
+#top_nav ul ul ul li:last-child a,
+#top_nav ul ul ul li:only-child a {
+	border-radius: inherit;
+	-moz-border-radius: inherit;
+	-webkit-border-radius: inherit;
 }
 
 #top_nav ul ul a,
@@ -274,6 +314,8 @@ header #logo a {
 	line-height:1em;
 	padding:10px 25px;
 	width: 160px;
+	text-shadow: none;
+	font-size: 90%;
 }
 
 #top_nav ul ul a:hover,
@@ -284,6 +326,7 @@ header #logo a {
 }
 
 #top_nav ul li:hover ul {display:block;}
+#top_nav ul ul li:hover ul {display:block!important;}
 
 
 /* Main Body Content Area 
