@@ -13,17 +13,15 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	
+
 <div id="wrap">
-	
+
 	<header id="branding">
 		<div id="logo"><h2><a href="<?php echo home_url() ?>/"><?php bloginfo( 'name' ); ?></a></h2></div>
-		<div id="tagline"><?php bloginfo( 'description' ); ?></div>
-	
 		<nav id="top_nav">
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 		</nav>
-			
+
 	</header>
-	
-	
+
+
