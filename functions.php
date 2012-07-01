@@ -24,7 +24,7 @@ function blm_theme_setup() {
 add_action( 'init', 'blm_register_menus' );
 
 /* Add custom actions. */
-add_action( 'widgets_init', 'blm_register_sidebars' );
+// add_action( 'widgets_init', 'blm_register_sidebars' );
 
 // Add menu features 
 function blm_register_menus() {
