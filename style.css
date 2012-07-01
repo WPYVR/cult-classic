@@ -98,7 +98,7 @@ a {
 	color:#666;
 }
 a:hover {
-	color:#000;
+	color:#F80A00;
 }
 
 p {
@@ -124,6 +124,7 @@ h2,h2 a,h3,h4,h5,h6 {
 }
 
 h2 a {
+	color: #F80A00;
 	text-decoration:none;
 }
 
@@ -566,20 +567,20 @@ ol#commentlist li p {
 /* Scrolly stuff
 -----------------------------------------------------*/
 
-#scrolly {
+.home #scrolly {
 	white-space: nowrap;
 	width: 6000px;
 	height: 524px;
 	margin-top: 120px;
 }
 
-#scrolly article {
-	width: 600px;
+.home #scrolly article {
+	width: 450px;
 	white-space: normal;
 	float: left;
 }
 
-#scrolly article .post-interior {
+.home #scrolly article .post-interior {
 	padding: 60px 20px;
 	height: 430px;
 	overflow-y: hidden;
