@@ -28,7 +28,12 @@ add_action( 'widgets_init', 'blm_register_sidebars' );
 
 // Add menu features 
 function blm_register_menus() {
-	register_nav_menus(array('primary'=>__( 'Primary Menu' ), ));
+	register_nav_menus(array('primary'=>__( 'Primary Menu' ), 
+	register_nav_menus(array('primary'=>__( 'Footer Menu' ), 
+
+	
+	
+	));
 }
 
 // Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
@@ -38,6 +43,7 @@ function blm_page_menu_args( $args ) {
 }
 add_filter( 'wp_page_menu_args', 'blm_page_menu_args' );
 
+/*
 function blm_register_sidebars() {
 	register_sidebar(
 		array(
@@ -51,6 +57,7 @@ function blm_register_sidebars() {
 		)
 	);
 }
+*/
 
 function blm_init_method() {
 
