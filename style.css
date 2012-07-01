@@ -630,3 +630,8 @@ ol#commentlist li p {
 	overflow-y: hidden;
 	
 }
+
+
+.home img.wp-post-image {
+	width: 200px !important;
+}
