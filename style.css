@@ -342,6 +342,7 @@ header {
 
 #content article {
 	background: url("images/filmstrip.png") no-repeat scroll 0 0 transparent;
+	font-size: 18px;
 }
 
 /* Footer area
