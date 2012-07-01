@@ -329,13 +329,17 @@ body {
 /* Index Page article post
 ------------------------------------------------------------*/
 
+#content {
+	overflow:scroll;
+}
+
+
 #content .category-flim {
 	border: 1px solid red;
-	width: 600px;
+	width: 400px;
 	float: left;
-	height: 200px;
-	white-space: nowrap;
-}
+	height: 200px;		
+	}
 
 
 /* Footer area
