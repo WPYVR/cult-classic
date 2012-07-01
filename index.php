@@ -4,8 +4,8 @@
 
 	<section id="content">
 		<section id="scrolly">
-
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php $the_query = new WP_Query( 'category_name=film' ); ?>
+	<?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
