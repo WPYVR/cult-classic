@@ -108,7 +108,7 @@ p {
 
 h1,h2,h3,h4,h5,h6 {
 	color:#444;
-	font-family:Georgia, Times, 'Times New Roman', serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 h1 {
@@ -168,27 +168,34 @@ header {
 	width:100%;
 	position: fixed;
 	top: 0;
-	height:100px;
+	height:150px;
 	background: #000;
 }
 
 #logo a {
 	display:block;
 	float:left;
-	width:100px;
+	width:150px;
 	height:80px;
 	outline:0;
 	margin:20px 0 0 60px;
 }
+
+#logo a:hover {
+	color: #BF3228;
+}
+
 
 /* Primary Navigation
 -------------------------------------------------------------- */
 #top_nav {
 	float:left;
 	background:#000;
-	position: absolute;
+	margin-top: 50px;
+	/* position: absolute;
 	top: 40px;
 	left: 150px;
+	*/
 }
 
 #top_nav .menu-header ul, div.menu ul { 
@@ -201,6 +208,7 @@ header {
 #top_nav .menu-header li, div.menu li {
 	float:left;
 	position: relative;
+	border: 1px solid purple;
 }
 
 #top_nav a {
