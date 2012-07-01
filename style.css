@@ -355,8 +355,16 @@ footer {
 	clear:both;
 	text-align:center;
 	width:1400px;
+	height: 150px;
 	border: 1px solid salmon;
 }
+
+footer #logo {
+	float: left;
+	border: 1px solid blue;
+	margin: 0px;
+}
+
 
 footer p {	
 	font-size:12px; 
