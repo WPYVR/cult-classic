@@ -537,7 +537,7 @@ ol#commentlist li p {
 
 .single-post article img {
 	float: left;
-	margin: 5px;
+	margin: 10px;
 }
 
 
@@ -549,6 +549,11 @@ ol#commentlist li p {
 /* overridden elsewhere for front page */
 #content article {
 	width: 800px;
+}
+
+.single-post #content article {
+	background: url("images/filmstrip-no-vertical-bars.png") repeat-x scroll 0 0 transparent;
+	background-size:450px 600px;
 }
 
 /* Page stuff
