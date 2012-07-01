@@ -18,7 +18,7 @@
 				<?php get_template_part( 'inc/meta' ); ?>
 	
 			</article> <!-- end post article -->
-		</section>	<!-- end scrollu section -->
+		</section>	<!-- end scrolly section -->
 		
 	<?php comments_template(); ?>
 		
