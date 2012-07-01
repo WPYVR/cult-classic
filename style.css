@@ -356,12 +356,10 @@ footer {
 	text-align:center;
 	width:1400px;
 	height: 150px;
-	border: 1px solid salmon;
 }
 
 footer #logo {
 	float: left;
-	border: 1px solid blue;
 	margin: 0px;
 }
 
@@ -380,6 +378,20 @@ footer a {
 footer a:hover {
 	text-decoration:underline;
 	color:#d4d4d4;
+}
+
+footer #footer_nav {
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+
+footer #footer_nav .menu li {
+	margin: 0 15px;
+}
+
+footer #footer_nav .menu li.current_page_item a, footer #footer_nav .menu li.current_page_ancestor a, footer #footer_nav .menu li.current_page_parent a {
+	text-decoration: underline;
 }
 
 /* Comments													
