@@ -168,23 +168,27 @@ header {
 	width:100%;
 	position: fixed;
 	top: 0;
-	height:150px;
+	height:155px;
 	background: #000;
+}
+
+header #logo {
+	display: block;
+	float: left;
+	margin:10px 10px 0 60px;
 }
 
 #logo a {
 	display:block;
 	float:left;
-	width:150px;
-	height:80px;
-	outline:0;
 	margin:20px 0 0 60px;
 }
 
+/*
 #logo a:hover {
 	color: #BF3228;
 }
-
+*/
 
 /* Primary Navigation
 -------------------------------------------------------------- */
@@ -192,6 +196,7 @@ header {
 	float:left;
 	background:#000;
 	margin-top: 50px;
+	margin-right: 50px;
 	/* position: absolute;
 	top: 40px;
 	left: 150px;
@@ -226,7 +231,7 @@ header {
 #top_nav ul li.current-menu-item a,
 #top_nav ul li.current-menu-parent a {
 	color:#fff;
-	background:#000;
+	background:#000;	
 }
 
 /* Drop down menu */
