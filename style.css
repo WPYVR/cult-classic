@@ -548,4 +548,7 @@ ol#commentlist li p {
 
 #scrolly article .post-interior {
 	padding: 60px 20px;
+	height: 430px;
+	overflow-y: hidden;
+	
 }
