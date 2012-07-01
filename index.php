@@ -2,8 +2,14 @@
 
 <div id="main">
 
+	<?php
+		global $wp_query;
+		$num_posts = $wp_query->found_posts;
+		$calc = $num_posts * 500;
+	?>
+
 	<section id="content">
-		<section id="scrolly">
+		<section id="scrolly" style="width: <?php echo $calc ?> px">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
