@@ -1,5 +1,11 @@
 <?php
 add_action( 'after_setup_theme', 'blm_theme_setup' );
+
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+function custom_excerpt_length( $length ) {
+	return 100;	/* excerpt length: 100 words*/
+}
+
 function blm_theme_setup() {
 
 	global $content_width;
