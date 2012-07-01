@@ -198,7 +198,7 @@ header #logo a {
 	background:#000;
 	margin-top: 50px;
 	margin-right: 50px;
-	font-family: 'Abel', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	/* position: absolute;
 	top: 40px;
 	left: 150px;
@@ -221,7 +221,7 @@ header #logo a {
 	display:block;
 	text-decoration:none;
 	text-transform: uppercase;
-	color:#fff;
+	color:lightblue;
 	font-size: 1.2em;
 	padding:10px 15px;
 	text-shadow: 0 0 10px yellow, 0 0 20px white, 0 0 30px white, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE, 0 0 150px #FF00DE;
@@ -271,7 +271,7 @@ header #logo a {
 	color:#000;
 	height:auto;
 	line-height:1em;
-	padding:10px;
+	padding:10px 25px;
 	width: 160px;
 }
 

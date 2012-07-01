@@ -79,7 +79,7 @@ function cult_classic_abel_font() {
 	if (!is_admin()) {
 
 		// Enqueue Google Webfonts: Abel
-		wp_register_style( 'cult-classic-abel-style', 'http://fonts.googleapis.com/css?family=Abel', 'all' );
+		wp_register_style( 'cult-classic-abel-style', 'http://fonts.googleapis.com/css?family=Oswald', 'all' );
 		wp_enqueue_style( 'cult-classic-abel-style' );
 	}
 }
