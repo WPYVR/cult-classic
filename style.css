@@ -283,7 +283,7 @@ body {
 
 #content {
 	float: left;
-	padding: 20px;
+	padding: 0px;
 	border: 1px solid blue;
 	height: 800px;
 }
