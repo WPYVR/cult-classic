@@ -168,7 +168,6 @@ body {
 	float:left;
 	width:960px;
 	height:180px;
-	background:url(images/header.gif) 50% top no-repeat;
 }
 
 #logo a {
@@ -176,7 +175,6 @@ body {
 	float:left;
 	width:100px;
 	height:80px;
-	text-indent:-9999em;
 	outline:0;
 	margin:20px 0 0 60px;
 }
@@ -350,9 +348,9 @@ body {
 footer {
 	clear:both;
 	text-align:center;
-	width:960px;
-	border-top:1px dotted #d4d4d4;
+	width:1400px;
 	margin:0 auto;
+	border: 1px solid salmon;
 }
 
 footer p {	
