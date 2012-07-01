@@ -18,7 +18,6 @@
 				<?php get_template_part( 'inc/meta' ); ?>
 	
 			</article> <!-- end post article -->
-		</section>	<!-- end scrolly section -->
 		
 	<?php comments_template(); ?>
 		
@@ -32,6 +31,8 @@
 	
 	<?php get_template_part( 'inc/nav' ); ?>
 	
+			</section>	<!-- end scrolly section -->
+
 	</section><!-- #content -->
 
 <?php // get_sidebar(); ?>
