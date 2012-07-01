@@ -164,10 +164,12 @@ body {
 
 /* Header Area 
 -----------------------------------------------------------*/
-#branding {
-	/* float:left; */ /* this broke things if not many posts */
-	width:960px;
-	height:180px;
+header {
+	width:100%;
+	position: fixed;
+	top: 0;
+	height:100px;
+	background: #000;
 }
 
 #logo a {
@@ -179,22 +181,14 @@ body {
 	margin:20px 0 0 60px;
 }
 
-#tagline {
-	width:400px;
-	float:left;
-	font-size:14px;
-	font-style:italic;
-	color:#333;
-	padding:120px 0 0 30px;
-}
-
-
 /* Primary Navigation
 -------------------------------------------------------------- */
 #top_nav {
 	float:left;
-	width:960px;
 	background:#000;
+	position: absolute;
+	top: 40px;
+	left: 150px;
 }
 
 #top_nav .menu-header ul, div.menu ul { 
@@ -281,9 +275,7 @@ body {
 }
 
 #content {
-	float: left;
 	padding: 0px;
-	height: 800px;
 }
 
 /* Main body blog content formatting
@@ -333,7 +325,6 @@ body {
 	overflow-x:scroll;
 }
 
-
 /* front page only */
 .home #content article {
 	width: 600px;
@@ -350,8 +341,12 @@ body {
 footer {
 	clear:both;
 	text-align:center;
-	width:1400px;
+	width:100%;
 	height: 150px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #000;
 }
 
 footer #logo {
@@ -515,4 +510,24 @@ ol#commentlist li p {
 /* overridden elsewhere for front page */
 #content article {
 	width: 800px;
+}
+
+/* Scrolly stuff
+-----------------------------------------------------*/
+
+#scrolly {
+	white-space: nowrap;
+	width: 6000px;
+	height: 1000px;
+	margin-top: 100px;
+}
+
+#scrolly article {
+	width: 600px;
+	white-space: normal;
+	float: left;
+}
+
+#scrolly article .post-interior {
+	padding: 60px 20px;
 }
