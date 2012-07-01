@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name: Cult Classic
 Description: Theme weekend
 Version: 1.0
@@ -39,10 +39,10 @@ fieldset{border:1px solid silver;margin:0 2px;padding:0.35em 0.625em 0.75em}
 legend{border:0;margin-left:-7px}
 button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0}
 button,input{line-height:normal}
-button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;overflow:visible}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
-input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
-input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button, input[type=button], input[type=reset], input[type=submit]{cursor:pointer;-webkit-appearance:button;overflow:visible}
+input[type=checkbox], input[type=radio]{box-sizing:border-box;padding:0}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
@@ -197,6 +197,7 @@ header #logo {
 	background:#000;
 	margin-top: 50px;
 	margin-right: 50px;
+	font-family: 'Abel', sans-serif;
 	/* position: absolute;
 	top: 40px;
 	left: 150px;
@@ -218,9 +219,13 @@ header #logo {
 #top_nav a {
 	display:block;
 	text-decoration:none;
-	color:#888;
+	text-transform: uppercase;
+	color:#fff;
+	font-size: 1.2em;
 	padding:10px 15px;
+	text-shadow: 0 0 10px yellow, 0 0 20px white, 0 0 30px white, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE, 0 0 150px #FF00DE;
 }
+
 
 #top_nav ul li a:hover, 
 #top_nav ul li.current_page_item a,
@@ -486,7 +491,7 @@ ol#commentlist li p {
 	color:#ba0000;
 }
 
-#respond input[type="text"],#respond input[type="email"],#respond input[type="url"] {
+#respond input[type=text], #respond input[type=email], #respond input[type=url] {
 	display:block;
 	width:230px;
 	height:33px;
