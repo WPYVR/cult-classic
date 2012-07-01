@@ -330,7 +330,7 @@ body {
 ------------------------------------------------------------*/
 
 .home #content {
-	overflow:scroll;
+	overflow-x:scroll;
 }
 
 
