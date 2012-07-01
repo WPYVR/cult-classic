@@ -165,7 +165,7 @@ body {
 /* Header Area 
 -----------------------------------------------------------*/
 #branding {
-	float:left;
+	/* float:left; */ /* this broke things if not many posts */
 	width:960px;
 	height:180px;
 }
