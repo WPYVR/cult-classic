@@ -147,7 +147,7 @@ blockquote {
 body {
 /*	color:#333; */
 	color: #CCC;
-	background-color: #fff;
+	background-color: #000;
 	font:14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
@@ -278,13 +278,11 @@ body {
 #main {
 	float:left;
 	padding:10px;
-	border: 1px solid purple;
 }
 
 #content {
 	float: left;
 	padding: 0px;
-	border: 1px solid blue;
 	height: 800px;
 }
 
@@ -336,17 +334,11 @@ body {
 }
 
 
-#content .category-film {
-	border: 1px solid red;
-	width: 400px;
-	float: left;
-	height: 200px;		
-	}
-
 #content article {
 	width: 600px;
 	height: 800px;
 	float: left;
+	background: url("images/filmstrip.png") no-repeat scroll 0 0 transparent;
 }
 
 /* Footer area
