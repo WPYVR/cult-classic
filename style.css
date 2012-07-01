@@ -149,7 +149,7 @@ body {
 /*	color:#333; */
 	color: #CCC;
 	background-color: #000;
-	font:14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font:12px/18px Verdana, Geneva, sans-serif;
 	margin:0;
 	padding:0;
 }
@@ -358,7 +358,8 @@ header #logo a {
 }
 
 #content article {
-	font-size: 18px;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 article h2 a {
