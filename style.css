@@ -360,6 +360,11 @@ header #logo a {
 	font-size: 18px;
 }
 
+article h2 a {
+	font-size: 32px;
+}
+
+
 /* Footer area
 ------------------------------------------------------------*/
 footer {
