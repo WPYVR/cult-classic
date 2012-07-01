@@ -2,9 +2,14 @@
 
 <div id="main">
 
+	<?php
+		$the_query = new WP_Query( 'category_name=film' );
+		$num_posts = $the_query->found_posts;
+		$calc = $num_posts * 500;
+	?>
+
 	<section id="content">
-		<section id="scrolly">
-	<?php $the_query = new WP_Query( 'category_name=film' ); ?>
+		<section id="scrolly" style="width: <?php echo $calc ?> px">
 	<?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
