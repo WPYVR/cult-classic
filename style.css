@@ -475,3 +475,11 @@ ol#commentlist li p {
 
 
 .form-allowed-tags {display:none;}/* Hides all the crap about html tags*/
+
+/* Single post
+-----------------------------------------------------*/
+
+.single-post article img {
+	float: left;
+	margin: 5px;
+}
