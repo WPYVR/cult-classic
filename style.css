@@ -87,7 +87,7 @@ body,figure,form{margin:0}
 	font-size:11px;
 	margin:5px;
 }
-
+		
 /* General Styles 
 ----------------------------------------------*/
 .clear {
@@ -329,15 +329,19 @@ body {
 /* Index Page article post
 ------------------------------------------------------------*/
 
-#content {
+.home #content {
 	overflow:scroll;
 }
 
 
-#content article {
+/* front page only */
+.home #content article {
 	width: 600px;
 	height: 800px;
 	float: left;
+}
+
+#content article {
 	background: url("images/filmstrip.png") no-repeat scroll 0 0 transparent;
 }
 
@@ -504,4 +508,11 @@ ol#commentlist li p {
 .single-post article img {
 	float: left;
 	margin: 5px;
+}
+
+
+/* single posts, pages etc */
+/* overridden elsewhere for front page */
+#content article {
+	width: 800px;
 }
