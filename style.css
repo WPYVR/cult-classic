@@ -541,10 +541,21 @@ ol#commentlist li p {
 }
 
 
+.single-post #main {
+	margin-top: 120px
+}
+	
 /* single posts, pages etc */
 /* overridden elsewhere for front page */
 #content article {
 	width: 800px;
+}
+
+/* Page stuff
+-----------------------------------------------------*/
+
+.page #main {
+	margin-top: 120px;
 }
 
 /* Scrolly stuff
