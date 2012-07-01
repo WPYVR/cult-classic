@@ -172,16 +172,17 @@ header {
 	background: #000;
 }
 
-header #logo {
+
+header #logo a {
 	display: block;
 	float: left;
-	margin:10px 0px 0 60px;
+	margin:30px 20px 0 20px;
 }
 
 #logo a {
 	display:block;
 	float:left;
-	margin:20px 0 0 60px;
+	margin:20px 0 0 20px;
 }
 
 /*
@@ -547,7 +548,7 @@ ol#commentlist li p {
 #scrolly {
 	white-space: nowrap;
 	width: 6000px;
-	height: 536px;
+	height: 524px;
 	margin-top: 120px;
 }
 
